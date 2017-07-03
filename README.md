@@ -12,7 +12,7 @@ npm i blockstarter_sign --save
 ### Use it
 
 
-* Set (to) address - address where do you want to send money from your multiwallet address
+* Set (to) address - address where do you want to send money from your multisig address
 * Set Amount - How many ether would you like to send
 
 ```
