@@ -20,8 +20,8 @@ blockstarter_sign --to 0x1f96beae932df4d05b133160f440ae992869efeb --amount 1
 ```
 
 * Obtain Generated $data 
-* Open Metamask (etc)
-* Put Your multiwallet contract address (TO)
+* Open Metamask (or something else)
+* Put Your multisig contract address (TO)
 * Set 0 Amount
 * Put generated $data in data field
 
