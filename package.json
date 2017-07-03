@@ -1,19 +1,19 @@
 {
+  "uperversion": "0.0",
+  "name": "blockstarter_sign",
+  "main": "index.js",
+  "description": "",
+  "version": "0.0.12",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {},
   "dependencies": {
     "chalk": "^2.0.1",
     "commander": "^2.11.0",
     "web3": "^0.19.1"
   },
-  "subversion": 11,
+  "subversion": 12,
   "license": "ISC",
-  "author": "",
-  "main": "index.js",
-  "name": "blockstarter_sign",
-  "uperversion": "0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "0.0.11",
-  "description": ""
+  "author": ""
 }
