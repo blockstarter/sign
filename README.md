@@ -1,6 +1,6 @@
 # Blockstarter Sign
 
-Sign transactions for multisig wallet created by blockstarter 
+Sign transactions of your multisig wallet created by blockstarter 
 
 ### Install it
 
