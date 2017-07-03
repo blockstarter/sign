@@ -1,4 +1,10 @@
 {
+  "name": "blockstarter_sign",
+  "uperversion": "0.0",
+  "subversion": 14,
+  "version": "0.0.14",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "chalk": "^2.0.1",
     "commander": "^2.11.0",
@@ -9,11 +15,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "subversion": 13,
-  "uperversion": "0.0",
-  "name": "blockstarter_sign",
-  "main": "index.js",
-  "description": "",
-  "version": "0.0.13"
+  "license": "ISC"
 }
