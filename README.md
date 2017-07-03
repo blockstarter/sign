@@ -2,7 +2,15 @@
 
 Sign transactions for multisig wallet created by blockstarter 
 
-### How to use it
+### Install it
+
+```
+npm i blockstarter_sign --save
+```
+
+
+### Use it
+
 
 * Set (to) address - address where do you want to send money from your multiwallet address
 * Set Amount - How many ether would you like to send
