@@ -1,14 +1,4 @@
 {
-  "name": "blockstarter_sign",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "version": "0.0.22",
-  "subversion": 22,
-  "uperversion": "0.0",
   "devDependencies": {},
   "dependencies": {
     "bignumber.js": "^4.0.2",
@@ -19,5 +9,15 @@
   "bin": {
     "blockstarter_sign": "./bin"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "blockstarter_sign",
+  "uperversion": "0.0",
+  "subversion": 24,
+  "version": "0.0.24",
+  "description": ""
 }

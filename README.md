@@ -28,3 +28,4 @@ blockstarter_sign --to 0x1f96beae932df4d05b133160f440ae992869efeb --amount 1
 
 Note! Each owner should repeat a same action
 
+![Terminal](http://res.cloudinary.com/nixar-work/image/upload/v1499168789/Screen_Shot_2017-07-04_at_2.55.34_PM.png)
