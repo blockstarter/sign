@@ -2,8 +2,11 @@ require! {
   \web3 : \Web3
   \commander : \program
   \chalk : { blue, yellow }
-  
+  \bignumber.js : \BigNumber
 }
+
+b = (n)->
+  new BigNumber n
 
 program
   .version('0.1.0')
@@ -20,14 +23,14 @@ abi = [{"constant":false,"inputs":[{"name":"_owner","type":"address"}],"name":"r
 contract-factory = web3.eth.contract abi .at '0x1f96beae932df4d05b133160f440ae992869efeb'
 result =  do
   if program.to?
-    console.log "Create data field for init transaction"
-    amount = parse-float(program.amount ? "0")
+    console.log "Input"
+    amount = b(program.amount).times(Math.pow(10,18))
     console.log blue("To"), program.to
-    console.log blue("Amount"), amount
+    console.log blue("Amount"), program.amount
     console.log blue("Data"), program.data
-    contract-factory.execute.get-data program.to, amount, program.data
+    contract-factory.execute.get-data program.to, amount.to-string!, program.data
   else if program.confirm_hash?
-    console.log "Create data field for confirm transaction"
+    console.log "Input"
     console.log blue("Hash"), program.confirm_hash
     contract-factory.confirm.get-data program.confirm_hash
   else ''
@@ -35,4 +38,13 @@ result =  do
 if result.length is 0
   console.log "Nothing to do"
 else
-  console.log "Please send this transaction to your multisig wallet with 0 amount and data field:", yellow(result)
+  console.log ""
+  console.log "----------------------------"
+  console.log "Please create a transaction "
+  console.log "----------------------------"
+  print = (field, value)->
+     console.log field, ":", yellow(value)
+    
+  print "Recepient Contract Address",  "0x.... (MULTISIG CONTRACT ADDRESS)"
+  print "Amount", "0"
+  print "Data" result

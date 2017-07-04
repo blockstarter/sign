@@ -6,11 +6,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "version": "0.0.16",
-  "subversion": 16,
+  "version": "0.0.22",
+  "subversion": 22,
   "uperversion": "0.0",
   "devDependencies": {},
   "dependencies": {
+    "bignumber.js": "^4.0.2",
     "chalk": "^2.0.1",
     "commander": "^2.11.0",
     "web3": "^0.19.1"

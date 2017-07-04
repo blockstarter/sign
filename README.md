@@ -6,7 +6,7 @@ Sign transactions of your multisig wallet created by blockstarter
 
 Install nodejs and npm (documentation: https://www.npmjs.com/package/npm)
 ```
-npm i blockstarter_sign --save
+npm i blockstarter_sign -g
 ```
 
 
